@@ -8,8 +8,8 @@ public class ScooterGasolina extends Scooter {
 
 	@Override
 	public void mostrarCaracteristicas() {
-		System.out.println("Scooter gasolina modelo: " + modelo + " de color: " + color + " de potencia " + potencia
-				+ " de potencia: " + potencia);
+		System.out.println("Scooter gasolina modelo: " + modelo + " de color: " + color + " de potencia: " + potencia
+	);
 	}
 
 }
