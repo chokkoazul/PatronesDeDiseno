@@ -26,6 +26,10 @@ public class Test {
         usuario2.envia("Cristian", "cris...vamos a comer?");
         usuario2.envia("Pedro", "estas conectado?");
 
+        for(Usuario u:salonDeChat.getParticipantes().values()){
+            System.out.println(u.getNombre());
+        }
+
 
     }
 

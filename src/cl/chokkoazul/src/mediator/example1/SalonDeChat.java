@@ -5,9 +5,13 @@ import java.util.HashMap;
 /**
  * Created by cristian.osorio on 26-02-17.
  */
-public class SalonDeChat implements ISalonDeChat {
+public class SalonDeChat implements ISalonDeChat { // Concrete Mediator
 
     private HashMap<String, Usuario> participantes = new HashMap<String, Usuario>();
+
+    public HashMap<String, Usuario> getParticipantes() {
+        return participantes;
+    }
 
     @Override
     public void registra(Usuario participante) {

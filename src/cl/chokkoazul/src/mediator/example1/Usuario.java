@@ -3,7 +3,7 @@ package cl.chokkoazul.src.mediator.example1;
 /**
  * Created by cristian.osorio on 26-02-17.
  */
-public class Usuario implements IUsuarioChat{
+public class Usuario implements IUsuarioChat{ // concrete colleague
 
     private String nombre;
     private SalonDeChat salon;
