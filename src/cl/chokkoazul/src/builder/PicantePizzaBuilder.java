@@ -1,5 +1,6 @@
 package cl.chokkoazul.src.builder;
 
+// concrete builder
 public class PicantePizzaBuilder extends PizzaBuilder {
 
 	@Override
